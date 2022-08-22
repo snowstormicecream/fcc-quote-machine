@@ -2,7 +2,7 @@
   "name": "fcc-quote-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/snowstormicecream/fcc-quote-machine",
+  "homepage": "https://snowstormicecream.github.io/fcc-quote-machine/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
