@@ -2,8 +2,6 @@ import "./styles.css"
 import { FaTwitter } from 'react-icons/fa';
 import React, { useState } from "react";
 
-//Make buttons fixed size and add twitter link 
-
 function App() {
   
   const allColors = [
@@ -24,11 +22,9 @@ function App() {
     {"quote":"You miss 100% of the shots you don’t take.", "author":"Wayne Gretzky"}
   ]
 
-   //Set initial without functions
-   const [currentQuote, setQuote] = useState(allQuotes[Math.floor(Math.random()*allQuotes.length)])
-   const [currentColor, setColor] = useState(allColors[Math.floor(Math.random()*allColors.length)])
+  const [currentQuote, setQuote] = useState(allQuotes[Math.floor(Math.random()*allQuotes.length)])
+  const [currentColor, setColor] = useState(allColors[Math.floor(Math.random()*allColors.length)])
 
-  //Rand
   const getQuote = (exclude) => {
     let newQuote = allQuotes[Math.floor(Math.random()*allQuotes.length)];
 
