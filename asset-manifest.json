@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/snowstormicecream/fcc-quote-machine/static/css/main.cebcdcee.css",
+    "main.js": "/snowstormicecream/fcc-quote-machine/static/js/main.665ba493.js",
+    "index.html": "/snowstormicecream/fcc-quote-machine/index.html",
+    "main.cebcdcee.css.map": "/snowstormicecream/fcc-quote-machine/static/css/main.cebcdcee.css.map",
+    "main.665ba493.js.map": "/snowstormicecream/fcc-quote-machine/static/js/main.665ba493.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cebcdcee.css",
+    "static/js/main.665ba493.js"
+  ]
+}
