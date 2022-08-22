@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+:root {
+    --main-color: whitesmoke;
+}
+
+#wrapper {
+    background-color: var(--main-color);
+    
+    /*Centers wrapper in middle of the page*/
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    /*Makes wrapper full page*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  
+}
+
+#quote-box {
+    background-color: whitesmoke;
+    height: auto; 
+    min-height: 300px;
+    width: 700px;
+    padding: 2.5%;
+    border-radius: 1.5%;
+    
+    /*Setting up gird*/
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 69% 20% 20%;
+    grid-template-areas: "text text"
+                         ". author"
+                         "buttons buttons";
+}
+
+#text {
+    color: var(--main-color);
+    font-family: Raleway, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    grid-area: text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#author {
+    color: var(--main-color);
+    font-family: Raleway, sans-serif;
+    font-size: 1em;
+    grid-area: author;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+#buttons {
+    font-family: Raleway, sans-serif;
+    grid-area: buttons;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-rows: 5% 95%;
+    grid-template-areas: ". . ."
+                         "tweet-quote . new-quote";
+}
+
+#tweet-quote-button {
+    grid-area: tweet-quote;
+    height: 50px;
+    width: 50px;
+    color: whitesmoke;
+    font-family: Raleway, sans-serif;  
+    font-size: 1em;
+    background-color: var(--main-color);
+    border: 0;
+    border-radius: 7.5%;
+
+}
+
+#tweet-quote-button:hover {
+    opacity: 85%;
+}
+
+#tweet-quote {
+    color: whitesmoke;
+}
+
+#new-quote {
+    grid-area: new-quote;
+    margin-left: 10%;
+    height: 50px;
+    width: 125px;
+    color: whitesmoke;
+    font-family: Raleway, sans-serif;  
+    background-color: var(--main-color);
+    border: 0;
+    border-radius: 7.4%;
+    
+}
+
+#new-quote:hover {
+    opacity: 85%;
+}
+
+#coder {
+    color: whitesmoke;
+    font-family: Raleway, sans-serif;
+    font-size: 1em ;
+    margin-top: 1.5%;
+       
+}
